@@ -1,11 +1,30 @@
-import React from 'react'
+import About from "./components/Aboutjs";
+import ExploreProj from "./components/ExploreProj";
+import Expo2 from "./components/Expo2";
+import Navbar from "./components/Navbar";
+import WhyChooseUs from "./components/WhyChooseus";
+import './index.css';  // Import the Tailwind CSS
+import Divisions  from "./components/Divisions";
+import FAQPage from "./components/FAQsPage";
+import Blogs from "./components/Blogs";
+import GetIT from "./components/GetIT";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi nemo id qui expedita illo culpa incidunt temporibus molestiae excepturi, eligendi voluptatibus? Corporis quam itaque, error modi tempore optio obcaecati dolorem minus adipisci, possimus sed reiciendis quidem quisquam voluptates repellat ad in aperiam impedit.
+      <Navbar />
+      <About /> {/* This should only appear once */}
+      <ExploreProj />
+      <Expo2/>
+      <WhyChooseUs/>
+      <Divisions/>
+      <FAQPage/>
+      <Blogs/>
+      <GetIT/>
+      <Footer/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
