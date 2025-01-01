@@ -3,8 +3,8 @@ import ExploreProj from "./components/ExploreProj";
 import Expo2 from "./components/Expo2";
 import Navbar from "./components/Navbar";
 import WhyChooseUs from "./components/WhyChooseus";
-import './index.css';  // Import the Tailwind CSS
-import Divisions  from "./components/Divisions";
+import "./index.css"; // Import the Tailwind CSS
+import Divisions from "./components/Divisions";
 import FAQPage from "./components/FAQsPage";
 import Blogs from "./components/Blogs";
 import GetIT from "./components/GetIT";
@@ -14,15 +14,15 @@ function App() {
   return (
     <div>
       <Navbar />
-      <About /> {/* This should only appear once */}
+      <About />
       <ExploreProj />
-      <Expo2/>
-      <WhyChooseUs/>
-      <Divisions/>
-      <FAQPage/>
-      <Blogs/>
-      <GetIT/>
-      <Footer/>
+      <Expo2 />
+      <WhyChooseUs />
+      <Divisions />
+      <FAQPage />
+      <Blogs />
+      <GetIT />
+      <Footer />
     </div>
   );
 }
