@@ -25,9 +25,12 @@ const WhyChooseUs = () => {
               className="mx-auto mb-4 max-w-full h-auto"
             />
             {/* Title aur Description */}
-            <h3 className="text-xl font-semibold text-black mb-4">Experience</h3>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Experience
+            </h3>
             <p className="text-gray-600">
-              With a legacy of industry experience, we have a deep understanding of market dynamics and client needs.
+              With a legacy of industry experience, we have a deep understanding
+              of market dynamics and client needs.
             </p>
           </div>
 
@@ -43,7 +46,8 @@ const WhyChooseUs = () => {
             />
             <h3 className="text-xl font-semibold text-black mb-2">Quality</h3>
             <p className="text-gray-600">
-              We are committed to delivering unparalleled quality in design, construction, and finishes.
+              We are committed to delivering unparalleled quality in design,
+              construction, and finishes.
             </p>
           </div>
 
@@ -57,16 +61,17 @@ const WhyChooseUs = () => {
               alt="Innovation"
               className="mx-auto mb-4 max-w-full h-auto"
             />
-            <h3 className="text-xl font-semibold text-black mb-2">Innovation</h3>
+            <h3 className="text-xl font-semibold text-black mb-2">
+              Innovation
+            </h3>
             <p className="text-gray-600">
-              Our projects are at the forefront of architectural innovation, setting trends for others to follow.
+              Our projects are at the forefront of architectural innovation,
+              setting trends for others to follow.
             </p>
           </div>
         </div>
 
-        {/* Second Row (2 Cards, Centered Middle Card) */}
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
-          {/* Empty Column for Spacing */}
           <div className="hidden lg:block"></div>
 
           {/* Card 4 */}
@@ -79,9 +84,12 @@ const WhyChooseUs = () => {
               alt="Customer Centric"
               className="mx-auto mb-4 max-w-full h-auto"
             />
-            <h3 className="text-xl font-semibold text-black mb-2">Customer Centric</h3>
+            <h3 className="text-xl font-semibold text-black mb-2">
+              Customer Centric
+            </h3>
             <p className="text-gray-600">
-              Your vision is our priority. We focus, understand, and tailor our solutions to meet your unique requirements.
+              Your vision is our priority. We focus, understand, and tailor our
+              solutions to meet your unique requirements.
             </p>
           </div>
 
@@ -95,9 +103,12 @@ const WhyChooseUs = () => {
               alt="Transparency"
               className="mx-auto mb-4 max-w-full h-auto"
             />
-            <h3 className="text-xl font-semibold text-black mb-2">Transparency</h3>
+            <h3 className="text-xl font-semibold text-black mb-2">
+              Transparency
+            </h3>
             <p className="text-gray-600">
-              We believe in open communication and transparency throughout the development process.
+              We believe in open communication and transparency throughout the
+              development process.
             </p>
           </div>
         </div>

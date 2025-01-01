@@ -1,11 +1,11 @@
-/* eslint-disable no-undef */
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
-    "./index.html",  // Add this if you are using Vite
-    "./src/**/*.{js,jsx,ts,tsx}", // Include all React files
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-};
+}
